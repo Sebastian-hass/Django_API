@@ -1,8 +1,7 @@
 {
   "build": {
-    "dockerfilePath": "Dockerfile"
-  },
-  "deploy": {
-    "startCommand": "python manage.py migrate && python create_superuser.py && python manage.py runserver 0.0.0.0:8000"
+    "builder": "NIXPACKS",
+    "buildCommand": "pip install -r misitio/requirements.txt",
+    "startCommand": "gunicorn misitio.misitio.wsgi"
   }
 }

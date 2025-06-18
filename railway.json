@@ -1,7 +1,0 @@
-{
-  "build": {
-    "builder": "NIXPACKS",
-    "buildCommand": "pip install -r misitio/requirements.txt",
-    "startCommand": "gunicorn misitio.misitio.wsgi"
-  }
-}
