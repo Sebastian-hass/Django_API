@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="Django-API" src="https://github.com/user-attachments/assets/054fba68-3cd2-4de3-86a4-c9798398ec63" />
+
 # 📝 Django REST API - BlogPosts
 
 Este es un proyecto de API REST construida con Django y Django REST Framework para gestionar publicaciones de blog. El despliegue se realizó en [Render](https://render.com).
